@@ -3,177 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AbdAlmalek Mokresh - Resume</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AbdAlmalek Mokresh - CV</title>
     <style>
-        /* General Styles */
         * {
-            box-sizing: border-box;
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
 
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
             line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
             padding: 20px;
         }
 
-        .resume-container {
-            display: flex;
-            max-width: 1200px;
-            margin: 0 auto;
-            background-color: #fff;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Sidebar */
-        .sidebar {
+        header {
             background-color: #333;
             color: #fff;
-            padding: 40px 20px;
-            width: 30%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            padding: 20px 0;
             text-align: center;
         }
 
-        .sidebar h1 {
-            font-size: 2.5em;
+        h1, h2 {
             margin-bottom: 10px;
+            font-weight: 600;
         }
 
-        .sidebar h2 {
-            font-size: 1.2em;
-            font-weight: normal;
-            margin-bottom: 40px;
-            color: #ddd;
-        }
-
-        .sidebar p, .sidebar a {
-            font-size: 1.1em;
-            color: #bbb;
-            text-decoration: none;
-        }
-
-        .sidebar p {
-            margin: 10px 0;
-        }
-
-        /* Main Content */
-        .main-content {
-            width: 70%;
-            padding: 40px;
-        }
-
-        .section {
-            margin-bottom: 40px;
-        }
-
-        .section h2 {
-            font-size: 1.8em;
-            margin-bottom: 20px;
+        h2 {
+            color: #333;
             border-bottom: 2px solid #333;
             padding-bottom: 5px;
         }
 
+        .section {
+            background-color: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
         .section ul {
-            list-style: none;
-            padding-left: 0;
+            list-style-type: disc;
+            margin-left: 20px;
         }
 
-        .section ul li {
-            margin-bottom: 15px;
+        a {
+            color: #007bff;
+            text-decoration: none;
         }
 
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .resume-container {
-                flex-direction: column;
-            }
+        a:hover {
+            text-decoration: underline;
+        }
 
-            .sidebar {
-                width: 100%;
-                padding: 20px;
-            }
-
-            .main-content {
-                width: 100%;
-                padding: 20px;
-            }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
         }
     </style>
 </head>
 <body>
-    <div class="resume-container">
-        <!-- Sidebar -->
-        <div class="sidebar">
+    <header>
+        <div class="container">
             <h1>AbdAlmalek Mokresh</h1>
+            <p>Syria – Aleppo city | (+963)962071041 | <a href="mailto:mokresh404@gmail.com">mokresh404@gmail.com</a> | <a href="https://linkedin.com/in/abdalmalek-mokresh" target="_blank">LinkedIn</a></p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
             <h2>Software Development Engineer</h2>
-            <p>Syria – Aleppo City</p>
-            <p>Phone: (+963) 962071041</p>
-            <p><a href="mailto:mokresh404@gmail.com">mokresh404@gmail.com</a></p>
-            <p><a href="https://linkedin.com/in/abdalmalek-mokresh" target="_blank">LinkedIn</a></p>
+            <p>Backend Developer with expertise in .NET, C#, and SQL Server. Passionate about staying up-to-date with the latest technologies and tools in the industry.</p>
+            <p>Solid problem-solving skills, proficiency in algorithms, data structures, and object-oriented programming, enabling efficient, maintainable, and scalable code.</p>
         </div>
+    </section>
 
-        <!-- Main Content -->
-        <div class="main-content">
-            <!-- Projects -->
-            <section class="section">
-                <h2>Projects Experience</h2>
-                <ul>
-                    <li><strong>Driving License Management System – Sep 2024</strong><br>
-                        Developed a desktop application for managing driving licenses, enabling employees to book, block, and manage licenses for users.
-                    </li>
-                    <li>Applied 3-tier architecture for maintainability and scalability.</li>
-                    <li>Implemented using .NET Framework (C#) and SQL Server.</li>
-                </ul>
-            </section>
-
-            <!-- Training -->
-            <section class="section">
-                <h2>Training Experience</h2>
-                <ul>
-                    <li>Solved 1000+ problems on <a href="https://codeforces.com/profile/Mokresh" target="_blank">Codeforces</a> and <a href="https://leetcode.com/u/abdalmalek" target="_blank">LeetCode</a>.</li>
-                    <li>Developed a deep understanding of SQL concepts by solving numerous SQL problems and working on diverse projects.</li>
-                    <li>Completed a high-level programming foundation course on <a href="https://programmingadvices.com" target="_blank">Programming Advices</a> under Dr. Mohammad Abohadoud.</li>
-                </ul>
-            </section>
-
-            <!-- Skills -->
-            <section class="section">
-                <h2>Skills</h2>
-                <ul>
-                    <li>C++, C#, Problem Solving, SQL Server, T-SQL, LINQ, HTML, CSS, JavaScript, Git</li>
-                    <li>Requirement Gathering, RESTful APIs, Windows Services</li>
-                </ul>
-            </section>
-
-            <!-- Education -->
-            <section class="section">
-                <h2>Education</h2>
-                <ul>
-                    <li><strong>Bachelor's Degree in Informatics Engineering</strong><br>
-                        Aleppo University (Jan 2022 – Jan 2027)
-                    </li>
-                </ul>
-            </section>
-
-            <!-- Awards -->
-            <section class="section">
-                <h2>Awards</h2>
-                <ul>
-                    <li>Certificate of Achievement – 18th place at ACPC (Jan 2024)</li>
-                    <li>Top SQL Badge at LeetCode (Nov 2024)</li>
-                    <li>Badge for 50+ Days of LeetCode (Nov 2024)</li>
-                    <li>Certificate of Achievement – Programming Foundation from Programming Advices (Nov 2024)</li>
-                </ul>
-            </section>
+    <section class="section">
+        <div class="container">
+            <h2>Training Experience</h2>
+            <ul>
+                <li>Solved 1000+ problems on platforms like Codeforces and Leetcode, focusing on problem-solving and algorithms.</li>
+                <li>Strong proficiency in SQL and T-SQL, solving complex problems on various platforms.</li>
+                <li>Solid foundation in programming and database management under Dr. Mohammad AboHadhoud on programmingadvices.com.</li>
+            </ul>
         </div>
-    </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <p>C++, C#, Problem Solving, SQL Server, T-SQL, Algorithms, Data Structures, SOLID Principles, ASP.NET Core, MVC, RESTful APIs, LINQ, ADO.NET, Entity Framework, HTML, CSS, JavaScript, Tailwind, React JS, GIT, Requirement Gathering, Windows Services</p>
+            <p><strong>Languages:</strong> Arabic (Native), English (Intermediate)</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>Education</h2>
+            <p><strong>Bachelor's Degree in Informatics Engineering</strong><br>
+            Syria, Aleppo University, Jan 2022 – Jan 2027</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>Awards</h2>
+            <ul>
+                <li>Certificate of Achievement at ACPC, ACM Training (Jan 2024) – ranked 23rd</li>
+                <li>Certificate of Achievement, ProgrammingAdvices.com (Nov 2024)</li>
+                <li>Top SQL Badge at LeetCode (Nov 2024)</li>
+                <li>SQL Certificate at HackerRank (Sep 2024)</li>
+                <li>Problem Solving Certificate at HackerRank (Sep 2024)</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Leetcode: <a href="https://leetcode.com/u/AbdAlmalek" target="_blank">AbdAlmalek</a> | Codeforces: <a href="https://codeforces.com/profile/Mokresh" target="_blank">Mokresh</a></p>
+        </div>
+    </footer>
 </body>
 </html>
