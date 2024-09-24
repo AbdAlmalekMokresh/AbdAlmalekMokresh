@@ -1,4 +1,6 @@
 ## Hi there 👋
+I am a software engineering student specializing in the field of back-End.
+I have a great passion to improve my skills in Software Development.
 
 <!--
 **AbdAlmalekMokresh/AbdAlmalekMokresh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
